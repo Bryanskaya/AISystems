@@ -19,17 +19,16 @@ flowchart TD
 Слайдер --> slider_nokia[Nokia]
 
 Раскладушка --> clam_philips[Philips]
-Раскладушка ---> clam_lg[LG]
+Раскладушка ---> clam_panasonic[Panasonic]
 Раскладушка --> clam_f_plus[F+]
 Раскладушка ---> clam_texet[teXet]
 
 Моноблок --> monon_philips[Philips]
 Моноблок ---> mono_nokia[Nokia]
-Моноблок --> mono_itel[Itel]
-Моноблок ---> mono_panasonic[Panasonic]
-Моноблок --> mono_f_plus[F+]
-Моноблок ---> mono_digma[Digma]
-Моноблок --> mono_texet[teXet]
+Моноблок --> mono_panasonic[Panasonic]
+Моноблок ---> mono_f_plus[F+]
+Моноблок --> mono_digma[Digma]
+Моноблок ---> mono_texet[teXet]
 
 Смартфон ---> iOS
 Смартфон ---> Android
@@ -39,7 +38,6 @@ iOS ---> Apple
 Android --> Samsung
 Android ---> Huawei
 Android --> Xiaomi
-Android ---> Readmi
-Android --> Nokia
-Android ---> Honor
+Android ---> Nokia
+Android --> Honor
 ```
